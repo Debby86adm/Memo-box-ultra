@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemoBox Ultra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MemoBox Ultra</h1>
+        <p>Registra un messaggio vocale e mandalo a chi vuoi, o lascialo fluttuare nel web!</p>
+        <button id="record">Inizia a Registrare</button>
+        <button id="stop" disabled>Ferma</button>
+        <audio id="audioPlayback" controls></audio>
+        <input type="text" id="recipient" placeholder="Email destinatario (opzionale)">
+        <button id="send">Invia</button>
+        <div id="status"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
